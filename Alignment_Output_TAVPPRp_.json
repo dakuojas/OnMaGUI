@@ -1,0 +1,415 @@
+[
+  {
+    "Node1": "SensorMeasurements",
+    "Node2_1tom": [
+      "SensorMeasurements",
+      "Sensors",
+      "StationID",
+      "Atmospheric",
+      "sea_surface_temperature"
+    ],
+    "Node2_1to1": [
+      "SensorMeasurements"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "SensorMeasurements",
+        "Rank": 0.0,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "Sensors",
+        "Rank": 0.129,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "StationID",
+        "Rank": 0.557,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Atmospheric",
+    "Node2_1tom": [
+      "Atmospheric",
+      "Oceanographic",
+      "barometric_pressure",
+      "SensorMeasurements",
+      "sea_surface_temperature"
+    ],
+    "Node2_1to1": [
+      "Atmospheric"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Atmospheric",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Wind",
+    "Node2_1tom": [
+      "Wind",
+      "wind_direction",
+      "wind_gust",
+      "wind_speed",
+      "Waves"
+    ],
+    "Node2_1to1": [
+      "Wind"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Wind",
+        "Rank": 0.0,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "wind_direction",
+        "Rank": 0.769,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "wind_gust",
+        "Rank": 0.791,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "wind_speed",
+        "Rank": 0.824,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "WindSpeed",
+    "Node2_1tom": [
+      "wind_speed",
+      "Wind",
+      "wind_direction",
+      "wind_gust",
+      "dominant_wave_period"
+    ],
+    "Node2_1to1": [
+      "wind_speed"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "wind_speed",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "WindGust",
+    "Node2_1tom": [
+      "wind_gust",
+      "Wind",
+      "wind_speed",
+      "wind_direction",
+      "significant_wave_height"
+    ],
+    "Node2_1to1": [
+      "wind_gust"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "wind_gust",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "WindDirection",
+    "Node2_1tom": [
+      "wind_direction",
+      "Wind",
+      "wind_speed",
+      "wind_gust",
+      "dominant_wave_period"
+    ],
+    "Node2_1to1": [
+      "wind_direction"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "wind_direction",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "AirTemperature",
+    "Node2_1tom": [
+      "air_temperature",
+      "sea_surface_temperature",
+      "barometric_pressure",
+      "dominant_wave_period",
+      "wind_speed"
+    ],
+    "Node2_1to1": [
+      "air_temperature"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "air_temperature",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "AtmosphericPressure",
+    "Node2_1tom": [
+      "barometric_pressure",
+      "air_temperature",
+      "sea_surface_temperature",
+      "Atmospheric",
+      "significant_wave_height"
+    ],
+    "Node2_1to1": [
+      "barometric_pressure"
+    ],
+    "Node2_1tos": []
+  },
+  {
+    "Node1": "Oceanographic",
+    "Node2_1tom": [
+      "Oceanographic",
+      "Atmospheric",
+      "Sensors",
+      "Wind",
+      "SensorMeasurements"
+    ],
+    "Node2_1to1": [
+      "Oceanographic"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Oceanographic",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Water",
+    "Node2_1tom": [
+      "Water",
+      "Waves",
+      "sea_surface_temperature",
+      "Wind",
+      "Atmospheric"
+    ],
+    "Node2_1to1": [
+      "Water"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Water",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "WaterTemperature",
+    "Node2_1tom": [
+      "sea_surface_temperature",
+      "air_temperature",
+      "Water",
+      "barometric_pressure",
+      "dominant_wave_period"
+    ],
+    "Node2_1to1": [
+      "sea_surface_temperature"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "sea_surface_temperature",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Waves",
+    "Node2_1tom": [
+      "Waves",
+      "dominant_wave_period",
+      "significant_wave_height",
+      "Wind",
+      "Water"
+    ],
+    "Node2_1to1": [
+      "Waves"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Waves",
+        "Rank": 0.0,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "dominant_wave_period",
+        "Rank": 0.595,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "significant_wave_height",
+        "Rank": 0.679,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "WaveHeight",
+    "Node2_1tom": [
+      "significant_wave_height",
+      "Waves",
+      "dominant_wave_period",
+      "Water",
+      "wind_direction"
+    ],
+    "Node2_1to1": [
+      "significant_wave_height"
+    ],
+    "Node2_1tos": []
+  },
+  {
+    "Node1": "DominantWavePeriod",
+    "Node2_1tom": [
+      "dominant_wave_period",
+      "significant_wave_height",
+      "wind_direction",
+      "BuoyOwnedAndMaintainedBy",
+      "wind_speed"
+    ],
+    "Node2_1to1": [
+      "dominant_wave_period"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "dominant_wave_period",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Sensors",
+    "Node2_1tom": [
+      "Sensors",
+      "SensorMeasurements",
+      "Oceanographic",
+      "Atmospheric",
+      "ForeignKey"
+    ],
+    "Node2_1to1": [
+      "Sensors"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Sensors",
+        "Rank": 0.0,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "SensorMeasurements",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "ForeignKey",
+    "Node2_1tom": [
+      "ForeignKey",
+      "SensorMeasurements",
+      "Oceanographic",
+      "BuoyOwnedAndMaintainedBy",
+      "Sensors"
+    ],
+    "Node2_1to1": [
+      "ForeignKey"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "ForeignKey",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "Buoy",
+    "Node2_1tom": [
+      "Buoy",
+      "BuoyOwnedAndMaintainedBy",
+      "ForeignKey",
+      "StationID",
+      "Sensors"
+    ],
+    "Node2_1to1": [
+      "Buoy"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "Buoy",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "StationID",
+    "Node2_1tom": [
+      "StationID",
+      "SensorMeasurements",
+      "BuoyOwnedAndMaintainedBy",
+      "Oceanographic",
+      "Atmospheric"
+    ],
+    "Node2_1to1": [
+      "StationID"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "StationID",
+        "Rank": 0.0,
+        "Simi": 0.0
+      },
+      {
+        "NodeS": "SensorMeasurements",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  },
+  {
+    "Node1": "BuoyOwnedAndMaintainedBy",
+    "Node2_1tom": [
+      "BuoyOwnedAndMaintainedBy",
+      "Buoy",
+      "StationID",
+      "ForeignKey",
+      "Oceanographic"
+    ],
+    "Node2_1to1": [
+      "BuoyOwnedAndMaintainedBy"
+    ],
+    "Node2_1tos": [
+      {
+        "NodeS": "BuoyOwnedAndMaintainedBy",
+        "Rank": 0.0,
+        "Simi": 0.0
+      }
+    ]
+  }
+]
