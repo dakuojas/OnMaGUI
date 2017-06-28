@@ -65,7 +65,7 @@ public class Main {
 		System.out.println("=>"+ s2.toString());
 		}*/
 		
-    }
+    }	
     public static UJSimilarity26feb2017 getSimilarityObject(String s) throws IOException
     {
     	UJSimilarity26feb2017 similarity=new UJSimilarity26feb2017();
