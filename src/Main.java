@@ -145,7 +145,7 @@ public class Main {
         gbl_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
         panel.setLayout(gbl_panel);
         
-        JButton btnLoadOs = new JButton("----Load Os----");
+        JButton btnLoadOs = new JButton("<html>Load<br>Os</html>");
         btnLoadOs.setFont(new Font("Tahoma", Font.PLAIN, 30));
         GridBagConstraints gbc_btnLoadOs = new GridBagConstraints();
         gbc_btnLoadOs.fill = GridBagConstraints.BOTH;
@@ -169,7 +169,7 @@ public class Main {
 		});
         
         
-        JButton btnLoadOt = new JButton("----Load Ot----");
+        JButton btnLoadOt = new JButton("<html>Load<br>Ot</html>");
         btnLoadOt.setFont(new Font("Tahoma", Font.PLAIN, 30));
         GridBagConstraints gbc_btnLoadOt = new GridBagConstraints();
         gbc_btnLoadOt.fill = GridBagConstraints.BOTH;
@@ -192,7 +192,7 @@ public class Main {
 			}
 		});
         
-        JButton btnSearch = new JButton("----Match----");
+        JButton btnSearch = new JButton("Match");
         btnSearch.setFont(new Font("Tahoma", Font.PLAIN, 30));
         GridBagConstraints gbc_btnSearch = new GridBagConstraints();
         gbc_btnSearch.fill = GridBagConstraints.BOTH;
@@ -228,7 +228,7 @@ public class Main {
 			}
 		});
         
-        JButton btnEdit = new JButton("----Edit----");
+        JButton btnEdit = new JButton("Edit");
         btnEdit.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
         	}
@@ -241,7 +241,7 @@ public class Main {
         gbc_btnEdit.gridy = 1;
         panel.add(btnEdit, gbc_btnEdit);
         
-        JButton btnOpenAlignment = new JButton("Open ALIGNMENT");
+        JButton btnOpenAlignment = new JButton("<html>Open<br>ALIGNMENT</html>");
         btnOpenAlignment.setFont(new Font("Tahoma", Font.PLAIN, 30));
         GridBagConstraints gbc_btnOpenAlignment = new GridBagConstraints();
         gbc_btnOpenAlignment.fill = GridBagConstraints.BOTH;
@@ -263,7 +263,7 @@ public class Main {
 			}
 		});
         
-        JButton btnOpenReference = new JButton("Open REFERENCE");
+        JButton btnOpenReference = new JButton("<html>Open<br>REFERENCE</html>");
         btnOpenReference.setFont(new Font("Tahoma", Font.PLAIN, 30));
         GridBagConstraints gbc_btnOpenReference = new GridBagConstraints();
         gbc_btnOpenReference.fill = GridBagConstraints.BOTH;
